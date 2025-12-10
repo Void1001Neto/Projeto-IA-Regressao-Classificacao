@@ -1,24 +1,24 @@
 # Projeto-IA-Regressao-Classificacao
 Análise exploratória, regressão, classificação e otimização com PyCaret e Sklearn.
 
-1. Objetivo do Projeto
+# 1. Objetivo do Projeto
 
 Este projeto tem como finalidade aplicar técnicas avançadas de Machine Learning em um conjunto de dados fictício sobre o impacto da inteligência artificial no mercado de trabalho até 2030.
 
 O trabalho envolve:
 
-# Análise exploratória detalhada (EDA)
-# Tratamento de dados, detecção de outliers e visualização gráfica
-# Modelagem de Regressão (Linear, Múltipla, Polinomial, PyCaret)
-# Modelagem de Classificação (Naive Bayes, Regressão Logística, PyCaret)
-# Avaliação com métricas apropriadas
-# Otimização via GridSearch, validação cruzada e tuning do PyCaret
-# Criação de dashboard interativo em Jupyter Notebook
+1. Análise exploratória detalhada (EDA)
+2. Tratamento de dados, detecção de outliers e visualização gráfica
+3. Modelagem de Regressão (Linear, Múltipla, Polinomial, PyCaret)
+4. Modelagem de Classificação (Naive Bayes, Regressão Logística, PyCaret)
+5. Avaliação com métricas apropriadas
+6. Otimização via GridSearch, validação cruzada e tuning do PyCaret
+7. Criação de dashboard interativo em Jupyter Notebook
 
 ########################################################################################
 
 
-2. Estrutura do Repositório
+# 2. Estrutura do Repositório
 
  Projeto-IA-Regressão-Classificação/
 │
@@ -41,7 +41,7 @@ O trabalho envolve:
 ########################################################################################
 
 
-3. Descrição do Dataset
+# 3. Descrição do Dataset
 
 O dataset contém informações sobre:
 
@@ -59,23 +59,23 @@ Skills_1 a 10 – habilidades avaliadas
 
 Risk_Category – etiqueta de risco (Baixo, Médio, Alto)
 
-# Fonte e licença: Dataset público fictício para uso acadêmico (MIT License).
+* Fonte e licença: Dataset público fictício para uso acadêmico (MIT License).
 
 ########################################################################################
 
 
-4. EDA – Análise Exploratória de Dados
+# 4. EDA – Análise Exploratória de Dados
 
 Foram utilizados:
 
-# Estatísticas descritivas
-# Histogramas e densidades
-# Boxplots com normalização
-# Scatterplots com jitter e facet grid
-# Pairplots estratificados por risco
-# Heatmap de correlação incluindo variáveis numéricas e skills
+* Estatísticas descritivas
+* Histogramas e densidades
+* Boxplots com normalização
+* Scatterplots com jitter e facet grid
+* Pairplots estratificados por risco
+* Heatmap de correlação incluindo variáveis numéricas e skills
 
-Principais achados:
+# Principais achados:
 
 A distribuição dos salários é assimétrica e apresenta outliers.
 
@@ -88,71 +88,72 @@ A correlação entre as variáveis numéricas é baixa, indicando pouca multicol
 ########################################################################################
 
 
-5. Modelagem
+# 5. Modelagem
    
-5.1 Regressão
+# 5.1 Regressão
 
-Modelos implementados:
+- Modelos implementados:
 
-Regressão Linear Simples
+- Regressão Linear Simples
 
-Regressão Linear Múltipla
+- Regressão Linear Múltipla
 
-Regressão Polinomial
+- Regressão Polinomial
 
-PyCaret – comparação automática de modelos
+- PyCaret – comparação automática de modelos
 
-Métricas avaliadas:
+- Métricas avaliadas:
 
-MAE
+- MAE
 
-RMSE
+- RMSE
 
-R²
+- R²
 
-Também foi realizado diagnóstico de resíduos:
+- Também foi realizado diagnóstico de resíduos:
 
-Homocedasticidade
+- Homocedasticidade
 
-Normalidade via Q–Q Plot
+- Normalidade via Q–Q Plot
 
-Multicolinearidade (VIF)
-
-########################################################################################
-
-
-5.2 Classificação
-
-Modelos utilizados:
-
-Naive Bayes
-
-Regressão Logística
-
-Gradient Boosting (melhor desempenho)
-
-PyCaret – ranking de modelos
-
-Métricas reportadas:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-score
-
-AUC-ROC (macro e micro)
-
-Matriz de confusão
-
-O modelo Gradient Boosting obteve desempenho quase perfeito em todas as métricas.
+- Multicolinearidade (VIF)
 
 ########################################################################################
 
 
-6. Otimização dos Modelos
+# 5.2 Classificação
+
+- Modelos utilizados:
+
+- Naive Bayes
+
+- Regressão Logística
+
+- Gradient Boosting (melhor desempenho)
+
+- PyCaret – ranking de modelos
+
+- Métricas reportadas:
+
+- Accuracy
+
+- Precision
+
+- Recall
+
+- F1-score
+
+- AUC-ROC (macro e micro)
+
+- Matriz de confusão
+
+- O modelo Gradient Boosting obteve desempenho quase perfeito em todas as métricas.
+
+########################################################################################
+
+
+# 6. Otimização dos Modelos
+
 # PyCaret
 
 compare_models() para ranking inicial
@@ -172,7 +173,7 @@ Comparação de métricas antes e depois da otimização
 ########################################################################################
 
 
- 7. Dashboard Interativo (Jupyter Notebook)
+ # 7. Dashboard Interativo (Jupyter Notebook)
 
 Inclui:
 
@@ -200,62 +201,62 @@ PyCaret outputs integrados
 
 ######################################################################################
 
-8. Como Executar o Projeto
+# 8. Como Executar o Projeto
 
-# Passo 1 — Instalar dependências
+- Passo 1 — Instalar dependências
 
 pip install -r requirements.txt
 
-# Passo 2 — Abrir o Notebook
+- Passo 2 — Abrir o Notebook
 
 No VS Code ou Jupyter:
 
 jupyter notebook
 
-# Passo 3 — Executar o pipeline completo
+- Passo 3 — Executar o pipeline completo
 
 Execute as células na ordem indicada no notebook principal.
 
 ########################################################################################
 
-9. Tecnologias Utilizadas
+# 9. Tecnologias Utilizadas
 
-# Python 3.10
+* Python 3.10
 
-# Pandas
+* Pandas
 
-# Numpy
+* Numpy
 
-# Matplotlib
+* Matplotlib
 
-# Seaborn
+* Seaborn
 
-# Scikit-Learn
+* Scikit-Learn
 
-# Statsmodels
+* Statsmodels
 
-# PyCaret
+* PyCaret
 
-# ipywidgets
+* ipywidgets
 
 ########################################################################################
 
-10. Licença
+# 10. Licença
 
 Este projeto está sob a licença MIT.
 Consulte o arquivo LICENSE para mais informações.
 
 ########################################################################################
 
-11. Agradecimentos
+# 11. Agradecimentos
 
 Projeto desenvolvido para fins acadêmicos, com foco em aprimoramento de habilidades em:
 
-# Machine Learning aplicado
-# Processos completos de EDA
-# Implementação e comparação de modelos
-# Interpretação estatística
-# Construção de dashboards analíticos
+- Machine Learning aplicado
+- Processos completos de EDA
+- Implementação e comparação de modelos
+- Interpretação estatística
+- Construção de dashboards analíticos
 
 
 
