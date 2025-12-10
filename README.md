@@ -246,6 +246,18 @@ Execute as células na ordem indicada no notebook principal.
 Este projeto está sob a licença MIT.
 Consulte o arquivo LICENSE para mais informações.
 
+Licença do Dataset
+------------------
+O arquivo de dados utilizado neste projeto é fictício e foi criado apenas
+para fins acadêmicos. O conteúdo está licenciado sob Creative Commons
+CC-BY 4.0, permitindo uso e adaptação com atribuição apropriada.
+
+Fonte do Dataset
+----------------
+Dataset fictício criado para fins educacionais, inspirado em relatórios públicos
+sobre automação, mercado de trabalho e impacto da inteligência artificial,
+particularmente os estudos do World Economic Forum e OECD AI Policy Observatory.
+
 ########################################################################################
 
 # 11. Agradecimentos
