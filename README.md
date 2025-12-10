@@ -5,7 +5,7 @@ Análise exploratória, regressão, classificação e otimização com PyCaret e
 
 Este projeto tem como finalidade aplicar técnicas avançadas de Machine Learning em um conjunto de dados fictício sobre o impacto da inteligência artificial no mercado de trabalho até 2030.
 
-O trabalho envolve:
+O projeto envolve:
 
 1. Análise exploratória detalhada (EDA)
 2. Tratamento de dados, detecção de outliers e visualização gráfica
